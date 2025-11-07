@@ -1,0 +1,16 @@
+{
+  "name": "builder-pattern-example",
+  "version": "1.0.0",
+  "description": "Exemplo do padrão de projeto Builder em TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["builder", "design-pattern", "typescript"],
+  "author": "Pedro Bonifácio",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
