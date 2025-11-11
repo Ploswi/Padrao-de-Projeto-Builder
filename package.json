@@ -8,8 +8,7 @@
     "start": "node dist/index.js"
   },
   "keywords": ["builder", "design-pattern", "typescript"],
-  "author": "Pedro Bonifácio",
-  "license": "MIT",
+  "author": "Pedro Bonifácio e Wallison Vinicius",
   "devDependencies": {
     "typescript": "^5.3.3"
   }

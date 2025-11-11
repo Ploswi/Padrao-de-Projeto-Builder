@@ -2,27 +2,34 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CarBuilder = void 0;
 const Car_1 = require("./Car");
-class CarBuilder {
-    constructor() {
+class CarBuilder
+{
+    constructor()
+    {
         this.car = new Car_1.Car();
     }
-    setModel(model) {
+    setModel(model)
+    {
         this.car.model = model;
         return this;
     }
-    setColor(color) {
+    setColor(color)
+    {
         this.car.color = color;
         return this;
     }
-    setEngine(engine) {
+    setEngine(engine)
+    {
         this.car.engine = engine;
         return this;
     }
-    setDoors(doors) {
+    setDoors(doors)
+    {
         this.car.doors = doors;
         return this;
     }
-    build() {
+    build()
+    {
         return this.car;
     }
 }
