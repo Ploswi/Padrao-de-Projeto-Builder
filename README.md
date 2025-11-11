@@ -23,7 +23,7 @@ Este padrão pode ser útil em sistemas que precisam gerar objetos com muitas co
 
 ## Instalação
 
-Necessário: Git e npm
+Necessário: Git e node.js
 
 ```bash
 git clone https://github.com/Ploswi/Padrao-de-Projeto-Builder.git
