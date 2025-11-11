@@ -25,7 +25,7 @@ Este padrão pode ser útil em sistemas que precisam gerar objetos com muitas co
 
 ```bash
 git clone https://github.com/Ploswi/Padrao-de-Projeto-Builder.git
-cd builder-pattern-example
+cd Padrao-de-Projeto-Builder
 npm install
 ```
 
