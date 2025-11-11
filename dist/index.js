@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-
 const CarBuilder_1 = require("./CarBuilder");
 const builder = new CarBuilder_1.CarBuilder();
 const car = builder
