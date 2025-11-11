@@ -21,7 +21,7 @@ Este padrão pode ser útil em sistemas que precisam gerar objetos com muitas co
 - Manutenção simplificada: alterações nos atributos do produto impactam menos o código cliente.  
 - Separação de responsabilidades: o processo de construção é separado da representação do objeto final, tornando o código mais modular.
 
-## Instalação
+## Instalação e execução
 
 Necessário: Git e node.js
 
@@ -30,8 +30,6 @@ git clone https://github.com/Ploswi/Padrao-de-Projeto-Builder.git
 cd Padrao-de-Projeto-Builder
 npm install
 ```
-
-## Execução
 
 ```bash
 npm run build
