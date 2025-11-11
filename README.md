@@ -12,7 +12,14 @@ O código implementa a classe `Car` (produto) e o construtor `CarBuilder`, que p
 Este padrão pode ser útil em sistemas que precisam gerar objetos com muitas configurações, como:
 - Montagem de entidades complexas no backend.
 - Configuração de objetos para APIs ou integrações.
-- Criação de DTOs (Data Transfer Objects) personalizados em camadas de serviço.
+- Criação de DTOs personalizados em camadas de serviço.
+
+## Benefícios do padrão Builder
+
+- Clareza e legibilidade: facilita a criação de objetos com muitos parâmetros sem precisar de múltiplos construtores sobrecarregados.  
+- Flexibilidade: permite criar variações do mesmo tipo de objeto com diferentes combinações de atributos.  
+- Manutenção simplificada: alterações nos atributos do produto impactam menos o código cliente.  
+- Separação de responsabilidades: o processo de construção é separado da representação do objeto final, tornando o código mais modular.
 
 ## Instalação
 
