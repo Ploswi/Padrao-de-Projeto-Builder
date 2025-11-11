@@ -11,39 +11,37 @@ interface ICarBuilder
 
 export class CarBuilder implements ICarBuilder
 {
-  private car: Car;
-
-  constructor()
-  {
-    this.car = new Car();
-  }
+  private model!: string;
+  private color!: string;
+  private engine!: string;
+  private doors!: number;
 
   setModel(model: string): this
   {
-    this.car.model = model;
+    this.model = model;
     return this;
   }
 
   setColor(color: string): this
   {
-    this.car.color = color;
+    this.color = color;
     return this;
   }
 
   setEngine(engine: string): this
   {
-    this.car.engine = engine;
+    this.engine = engine;
     return this;
   }
 
   setDoors(doors: number): this
   {
-    this.car.doors = doors;
+    this.doors = doors;
     return this;
   }
 
   build(): Car
   {
-    return this.car;
+    return new Car(this.model, this.color, this.engine, this.doors);
   }
 }

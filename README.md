@@ -7,13 +7,6 @@ O exemplo constrói um objeto `Car` definindo seus atributos passo a passo por m
 
 O código implementa a classe `Car` (produto) e o construtor `CarBuilder`, que permite configurar o modelo, cor, motor e número de portas antes de finalizar a criação do carro com o método `build()`.
 
-## Benefícios do padrão Builder
-
-- Clareza e legibilidade: facilita a criação de objetos com muitos parâmetros sem precisar de múltiplos construtores sobrecarregados.  
-- Flexibilidade: permite criar variações do mesmo tipo de objeto com diferentes combinações de atributos.  
-- Manutenção simplificada: alterações nos atributos do produto impactam menos o código cliente.  
-- Separação de responsabilidades: o processo de construção é separado da representação do objeto final, tornando o código mais modular.
-
 ## Como utilizar em uma arquitetura
 
 Este padrão pode ser útil em sistemas que precisam gerar objetos com muitas configurações, como:

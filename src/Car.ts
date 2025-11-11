@@ -1,11 +1,19 @@
 export class Car
 {
-  public model!: string;
-  public color!: string;
-  public engine!: string;
-  public doors!: number;
+  model: string;
+  color: string;
+  engine: string;
+  doors: number;
 
-  public showDetails(): void
+  constructor(model: string, color: string, engine: string, doors: number)
+  {
+    this.model = model;
+    this.color = color;
+    this.engine = engine;
+    this.doors = doors;
+  }
+
+  showDetails(): void
   {
     console.log(`Modelo: ${this.model}\nCor: ${this.color}\nMotor: ${this.engine}\nPortas: ${this.doors}`);
   }
