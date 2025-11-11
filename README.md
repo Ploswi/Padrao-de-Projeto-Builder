@@ -44,6 +44,3 @@ Cor: Azul
 Motor: 2.0 Turbo
 Portas: 4
 ```
-
-## Licença
-Uso educacional

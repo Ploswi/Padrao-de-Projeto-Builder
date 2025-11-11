@@ -1,6 +1,7 @@
 import { Car } from "./Car";
 
-interface ICarBuilder {
+interface ICarBuilder
+{
   setModel(model: string): this;
   setColor(color: string): this;
   setEngine(engine: string): this;
@@ -8,34 +9,41 @@ interface ICarBuilder {
   build(): Car;
 }
 
-export class CarBuilder implements ICarBuilder {
+export class CarBuilder implements ICarBuilder
+{
   private car: Car;
 
-  constructor() {
+  constructor()
+  {
     this.car = new Car();
   }
 
-  setModel(model: string): this {
+  setModel(model: string): this
+  {
     this.car.model = model;
     return this;
   }
 
-  setColor(color: string): this {
+  setColor(color: string): this
+  {
     this.car.color = color;
     return this;
   }
 
-  setEngine(engine: string): this {
+  setEngine(engine: string): this
+  {
     this.car.engine = engine;
     return this;
   }
 
-  setDoors(doors: number): this {
+  setDoors(doors: number): this
+  {
     this.car.doors = doors;
     return this;
   }
 
-  build(): Car {
+  build(): Car
+  {
     return this.car;
   }
 }
